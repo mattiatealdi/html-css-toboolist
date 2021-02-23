@@ -76,12 +76,12 @@ hr{
     padding: 0;
 }
 
-.todo1, .todo2{
+.todo1, .todo2, .todo3{
   margin-top: 30px;
   margin-left: 50px;
 }
 
-.todo1 p span, .todo2 p span{
+.todo1 p span, .todo2 p span, .todo3 p span{
   color: #63BBA7;
 }
 
@@ -130,5 +130,21 @@ p{
   background-color: #EA9A36;
   color:white;
   border: 7px solid #EA9A36;
+  border-radius: 10px;
+}
+
+#website{
+  margin-left: 20px;
+  background-color: #D2629F;
+  color:white;
+  border: 7px solid #D2629F;
+  border-radius: 10px;
+}
+
+#sales{
+  margin-left: 20px;
+  background-color: #ABC32A;
+  color:white;
+  border: 7px solid #ABC32A;
   border-radius: 10px;
 }
