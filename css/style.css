@@ -1,0 +1,134 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+header{
+  height: 150px;
+  background-color: white;
+}
+
+
+header .logo{
+  background-image: url("../img/Logo.png");
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin:20px 0px 0px 20px;
+}
+
+header .title{
+  display: inline-block;
+  font-size: 30px;
+  margin: 20px 0 0 100px; 
+}
+
+body{
+  background-color: #F6F8F9;
+}
+
+.container{
+  margin: auto;
+  height:80vh;
+  width:80vw;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.buttons{
+  height: 80px;
+}
+
+#button1{
+  height: 30px;
+  width: 90px;
+  background-color: #47A8EB;
+  border-radius: 7px;
+  color: white;
+  margin: 15px 10px 0 40px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+#button2{
+  height: 30px;
+  width: 90px;
+  border-color: #cbcdce;
+  background-color: white;
+  color: #cbcdce;
+  border-radius: 7px;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cbcdce;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.todo1, .todo2{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.todo1 p span, .todo2 p span{
+  color: #63BBA7;
+}
+
+.tick{
+  border:1px solid #63BBA7;
+  border-radius: 50%;
+}
+.cross{
+  
+  border: 1px solid red;
+  border-radius:50%;
+}
+
+p{
+  margin-top: 10px;
+  margin-left:10px;
+  margin-bottom: 20px;
+}
+
+#editorial{
+  margin-left: 20px;
+  background-color: #47A8EB;
+  color:white;
+  border: 7px solid #47A8EB;
+  border-radius: 10px;
+}
+
+#q1{
+  margin-left: 20px;
+  background-color: #9870DF;
+  color:white;
+  border: 7px solid #9870DF;
+  border-radius: 10px;
+}
+
+#recruiting{
+  margin-left: 20px;
+  background-color: #63BAA6;
+  color:white;
+  border: 7px solid #63BAA6;
+  border-radius: 10px;
+}
+
+#mobile{
+  margin-left: 20px;
+  background-color: #EA9A36;
+  color:white;
+  border: 7px solid #EA9A36;
+  border-radius: 10px;
+}
